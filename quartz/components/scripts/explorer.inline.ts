@@ -87,6 +87,9 @@ function createFileNode(currentSlug: FullSlug, node: FileTrieNode): HTMLLIElemen
   a.href = resolveRelative(currentSlug, node.slug)
   a.dataset.for = node.slug
   a.textContent = node.displayName
+  
+  // 添加 title 属性用于显示完整文件名的 tooltip
+  a.title = node.displayName
 
   if (currentSlug === node.slug) {
     a.classList.add("active")

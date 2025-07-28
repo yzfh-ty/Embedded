@@ -1,4 +1,10 @@
-let isReaderMode = false
+// Check if device is mobile
+const isMobile = () => {
+  return window.innerWidth <= 800 // Using the same breakpoint as defined in variables.scss
+}
+
+// Set default reader mode based on device type
+let isReaderMode = !isMobile() // Desktop: true, Mobile: false
 
 const emitReaderModeChangeEvent = (mode: "on" | "off") => {
   const event: CustomEventMap["readermodechange"] = new CustomEvent("readermodechange", {

@@ -5,11 +5,13 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Backlinks(),
+    Component.Graph(),
+  ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/yzfh-ty/Embedded",
     },
   }),
 }
@@ -30,20 +32,18 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
+      direction: "row",
+      gap: "0.5rem",
     }),
-    Component.Explorer(),
+    // Component.DesktopOnly(Component.RecentNotes({ limit: 5, showTags: false })),
+    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
   ],
 }
 
@@ -55,14 +55,15 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
       ],
+      direction: "row",
+      gap: "0.5rem",
     }),
-    Component.Explorer(),
+    // Component.DesktopOnly(Component.RecentNotes({ limit: 5, showTags: false })),
+    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
 }
