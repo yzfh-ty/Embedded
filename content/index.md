@@ -1,13 +1,9 @@
 ---
-title: 月醉芳华的数字花园
-description: 记录嵌入式学习过程
-publish: true
+{"publish":true,"permalink":"/index.md","title":"月醉芳华的数字花园","description":"记录嵌入式学习过程","created":"2025-07-28T10:02:22.778+08:00","modified":"2025-07-28T14:27:20.421+08:00","cssclasses":""}
 ---
+
 
 # 欢迎 👋
 
-这里会分享我的公开笔记、研究摘录和碎片想法。
-
-
-# 测试
+这里会分享我在学习嵌入式过程中的经验和笔记
 

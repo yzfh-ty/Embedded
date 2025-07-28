@@ -1,14 +1,7 @@
 ---
-🌻日期🌻: 2025 07 26 11:51:12
-🌙星期🌙: 星期六
-⌚️时间⌚️: 11:51:12
-🌍位置🌍: 北京-昌平区
-☁️天气☁️: 🌅中雨 / 🌃雷阵雨
-🌡️温度🌡️: 🌅34.0℃/ 🌃26.0℃
-tags:
-  - linux
-publish: true
+{"publish":true,"permalink":"/linux/04 Vim编辑器.md","created":"2025-07-28T10:29:15.815+08:00","modified":"2025-07-28T14:16:38.759+08:00","tags":["linux"],"cssclasses":""}
 ---
+
 # vim 编辑器 [[Vim_Reference_Sheet.pdf|说明文档]]
 
 Vim 是 vi 的升级版，是文本编辑器，通常用 Vim 来编辑程序或Shell 脚本等。
