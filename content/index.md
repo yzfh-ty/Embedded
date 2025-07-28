@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/index.md","title":"月醉芳华的数字花园","description":"记录嵌入式学习过程","created":"2025-07-28T10:02:22.778+08:00","modified":"2025-07-28T14:27:20.421+08:00","cssclasses":""}
+{"publish":true,"permalink":"/index.md","title":"About","description":"记录嵌入式学习过程","created":"2025-07-28T10:02:22.778+08:00","modified":"2025-07-28T15:14:34.091+08:00","cssclasses":""}
 ---
 
 
