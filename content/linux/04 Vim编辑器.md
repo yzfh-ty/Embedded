@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/linux/04 Vim编辑器.md","created":"2025-07-28T10:29:15.815+08:00","modified":"2025-07-28T19:59:52.171+08:00","tags":["linux"],"cssclasses":""}
+{"publish":true,"permalink":"/linux/04 Vim编辑器.md","aliases":"vim","created":"2025-07-28T10:29:15.815+08:00","modified":"2025-07-29T19:25:11.293+08:00","tags":["linux"],"cssclasses":""}
 ---
 
 # vim 编辑器 [[Vim_Reference_Sheet.pdf|说明文档]]
