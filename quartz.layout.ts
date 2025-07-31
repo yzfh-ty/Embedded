@@ -11,6 +11,7 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
+      个人博客: "https://blog.525866.xyz",
       GitHub: "https://github.com/yzfh-ty/Embedded",
     },
   }),
