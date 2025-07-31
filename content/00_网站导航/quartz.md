@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/00_网站导航/quartz.md","aliases":"quartz","created":"2025-07-30T16:05:02.793+08:00","modified":"2025-07-31T14:11:39.727+08:00","tags":["obsidian"],"cssclasses":""}
+{"publish":true,"permalink":"/00_网站导航/quartz.md","created":"2025-07-31T16:11:55.932+08:00","modified":"2025-07-31T19:20:50.792+08:00","cssclasses":""}
 ---
 
 自动发布
@@ -48,7 +48,7 @@ jobs:
 
         with:
 
-          fetch-depth: 0 # Fetch all history for git info
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
 

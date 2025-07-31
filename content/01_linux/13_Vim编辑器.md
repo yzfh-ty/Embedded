@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/01_linux/13_Vim编辑器.md","aliases":"vim","created":"2025-07-28T10:29:15.815+08:00","modified":"2025-07-31T08:23:21.671+08:00","tags":["linux"],"cssclasses":""}
+{"publish":true,"permalink":"/01_linux/13_Vim编辑器.md","created":"2025-07-31T16:11:55.938+08:00","modified":"2025-07-31T19:41:36.146+08:00","cssclasses":""}
 ---
 
 # vim 编辑器 [[Vim_Reference_Sheet.pdf|说明文档]]
@@ -102,6 +102,16 @@ Vim 是 vi 的升级版，是文本编辑器，通常用 Vim 来编辑程序或S
 |    v     | 任意位置可视化块选 |
 |    V     | 以行为单位块选。  |
 | Ctrl + v |    块选     |
+
+Vim 的列插入:
+
+```
+ctrl +v
+上下方向键选择列
+I(输入大写的I进入插入模式）
+输入要插入的内容
+ESC键完成插入
+```
 
 ## Vim 的配置文件
 
