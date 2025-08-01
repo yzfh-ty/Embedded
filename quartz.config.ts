@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     pageTitleSuffix: "",
     enablePopovers: true,
-    analytics: null,
+    analytics: {provider: 'clarity', projectId: 'snw9hq9nju' },
     locale: "zh-CN",
     baseUrl: "embedded.525866.xyz",
     ignorePatterns: ["Excalidraw", "**/*.excalidraw.md", "template"],
