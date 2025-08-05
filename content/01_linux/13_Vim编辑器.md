@@ -1,12 +1,12 @@
 ---
-{"publish":true,"permalink":"/01_linux/13_Vim编辑器.md","created":"2025-07-31T16:11:55.938+08:00","modified":"2025-08-01T10:35:27.209+08:00","cssclasses":""}
+{"publish":true,"permalink":"/01_linux/13_Vim编辑器.md","created":"2025-07-31T16:11:55.938+08:00","modified":"2025-08-05T18:52:05.830+08:00","cssclasses":""}
 ---
 
 # vim 编辑器 [[Vim_Reference_Sheet.pdf|说明文档]]
 
 Vim 是 vi 的升级版，是文本编辑器，通常用 Vim 来编辑程序或Shell 脚本等。
 
-![[image/Pasted image 20250724160933.png]]
+![[01_linux/image/Pasted image 20250724160933.png]]
 
 编辑模式的命令
 
@@ -120,7 +120,7 @@ Vim 用户级别的配置文件是 ~/.vimrc
 
 自用配置文件
 
-```
+```shell
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 0. 头部说明
 " 简化版 ~/.vimrc  ——  yzfh
@@ -349,3 +349,4 @@ set background=dark
 " \}
 " let g:ale_fix_on_save = 1
 ```
+
