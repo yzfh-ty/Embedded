@@ -1,5 +1,5 @@
 ---
-{"publish":true,"permalink":"/index.md","title":"从零开始的嵌入式之旅","created":"2025-07-28T10:02:22.778+08:00","modified":"2025-07-31T20:27:52.731+08:00","cssclasses":""}
+{"publish":true,"permalink":"/index.md","title":"从零开始的嵌入式之旅","created":"2025-07-28T10:02:22.778+08:00","modified":"2025-08-06T10:51:10.078+08:00","cssclasses":""}
 ---
 
 欢迎来到我的嵌入式学习笔记网站 👋 💻
@@ -18,6 +18,8 @@
 
 笔记在GitHub开源（[仓库地址](https://github.com/yzfh-ty/Embedded)），使用 [Obsidian](https://obsidian.md/) 写笔记，[quartz-syncer](https://github.com/saberzero1/quartz-syncer) 插件同步，[quartz](https://github.com/jackyzha0/quartz) +GitHub Page[[00_网站导航/quartz\|自动发布]]
 
-## 其他
+如果您发现了令人不适的内容、错误或我的个人隐私，请告知我，万分感谢 yzfh320@gmail.com 
 
-还在继续完善，目前还在学习
+## 未完待续
+
+还在继续完善，目前还在学习，预计12月完成
