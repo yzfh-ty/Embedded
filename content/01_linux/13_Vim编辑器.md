@@ -1,12 +1,12 @@
 ---
-{"publish":true,"permalink":"/01_linux/13_Vim编辑器.md","created":"2025-07-31T16:11:55.938+08:00","modified":"2025-08-20T16:04:53.452+08:00","cssclasses":""}
+{"publish":true,"permalink":"/01_linux/13_Vim编辑器.md","created":"2025-07-31T16:11:55.938+08:00","modified":"2025-10-23T21:27:52.872+08:00","cssclasses":""}
 ---
 
 # vim 编辑器 [[Vim_Reference_Sheet.pdf|说明文档]]
 
 Vim 是 vi 的升级版，是文本编辑器，通常用 Vim 来编辑程序或Shell 脚本等。
 
-![[01_linux/image/Pasted image 20250724160933.png]]
+![Pasted image 20250724160933.png](https://lsky.yzfh.xyz/public/20251023/543d02abbc8ecd2ca6994c4796465539.png)
 
 编辑模式的命令
 
